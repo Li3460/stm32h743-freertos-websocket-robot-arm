@@ -1,0 +1,69 @@
+# ==========================================
+# STM32 / CMake build outputs
+# ==========================================
+build/
+cmake-build-*/
+Debug/
+Release/
+out/
+
+*.o
+*.obj
+*.d
+*.su
+*.elf
+*.axf
+*.map
+*.hex
+*.bin
+*.lst
+*.srec
+*.crf
+*.dep
+*.lnp
+
+# ==========================================
+# Keil MDK temporary and output files
+# ==========================================
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+
+*.uvguix.*
+*.uvoptx
+*.scvd
+*.build_log.htm
+
+# ==========================================
+# PlatformIO / ESP8266 build outputs
+# ==========================================
+.pio/
+esp8266_firmware/.pio/
+
+# ==========================================
+# Editor and temporary files
+# ==========================================
+.vscode/ipch/
+.vscode/.browse.c_cpp.db*
+*.log
+*.tmp
+*.bak
+*~
+Thumbs.db
+.DS_Store
+
+# ==========================================
+# Local AI assistant configuration
+# Remove this line if you intentionally want
+# to publish the .agents directory
+# ==========================================
+.agents/
+
+# ==========================================
+# Private configuration and secrets
+# ==========================================
+.env
+secrets.h
+wifi_secrets.h
+config_private.h
+*.pem
+*.key
